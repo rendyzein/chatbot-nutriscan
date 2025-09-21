@@ -1,5 +1,5 @@
 import streamlit as st
-import google.genai as genai
+import google.generativeai as genai
 import io
 import base64
 import uuid
@@ -159,4 +159,5 @@ else:
     st.info("Silakan unggah foto makanan untuk memulai analisis.")
 
 # --- Tampilkan Riwayat Chat ---
+
 display_chat_messages()
