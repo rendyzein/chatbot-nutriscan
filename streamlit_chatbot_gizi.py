@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
+import google.genrativeai as genai
 import io
 import base64
 import uuid
@@ -161,3 +161,4 @@ else:
 # --- Tampilkan Riwayat Chat ---
 
 display_chat_messages()
+
